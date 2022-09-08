@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+.sideblock{
+  height:150px;
+  width: 50px;
+  background-color:#3a3838;
+  position: fixed;
+  z-index: 1;
+  display: block;
+margin: 0px;
+top: 0;
+left: 0;
+}
+.side
+{   margin-top: 150px;
+height:100%;
+width: 35px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+display: block;
+text-align: justify;
+text-align: right;
+writing-mode:vertical-rl;
+transform: rotate(180deg);
+overflow-x: hidden;
+padding-right: 15px;
+padding-bottom:50px ;
+padding-left: 35px;
+color: rgb(110, 73, 16);
+letter-spacing: 8px;
+background-color: white;
+
+
+}
+body{
+  background-image: url("abb.jpg");
+background-size: 20% 20%;
+background-color: black;
+  background-repeat: no-repeat;
+  background-size:cover;        }
+
+.textside
+{margin-left:25;
+font-weight:bolder ;
+top: 15px;
+left: 15px;
+letter-spacing: 15px;
+}
+.container
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px solid  rgb(219, 25, 73);
+  padding: 20px;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 25px;
+  
+}

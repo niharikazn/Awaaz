@@ -1,0 +1,112 @@
+body{
+    background-image: url("m.jpg");
+  background-size: 50% 50%;
+  background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;        }
+    .topic
+    {  
+        float: left;
+        margin-top: 20px;
+        margin-left:35px ;
+font-size: 60px;
+color: rgb(235 24 102);
+text-shadow: 3px 4px #01004b;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    img{
+        float: left;
+        height: 50px;
+        width: 50px;
+        border-radius: 60px;
+        margin-left: 50px;
+        margin-top: 8px;
+    }
+    .l2{
+  margin-left: 100px;
+}
+.sideblock{
+  height:150px;
+  width: 50px;
+  background-color:#3a3838;
+  position: fixed;
+  z-index: 1;
+  display: block;
+margin: 0px;
+top: 0;
+left: 0;
+}
+.side
+{   margin-top: 150px;
+height:100%;
+width: 35px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+display: block;
+text-align: justify;
+text-align: right;
+writing-mode:vertical-rl;
+transform: rotate(180deg);
+overflow-x: hidden;
+padding-right: 15px;
+padding-bottom:50px ;
+color: rgb(110, 73, 16);
+letter-spacing: 8px;
+background-color: white;
+
+
+}
+
+.textside
+{margin-left:25;
+font-weight:bolder ;
+top: 15px;
+left: 15px;
+letter-spacing: 15px;
+}
+.container{
+    align-items:flex-start;
+    display:inline-table;
+      height: 200px;
+      text-align:center;
+      border: white;
+      width: 40%;
+      backdrop-filter: blur(8px);
+      margin-top: 140px;
+      margin-left: 900px;
+     border-radius: 1px;
+     border-color: whitesmoke;
+  }
+  .container li{
+  color:#2ff76bcc;
+  font-weight: bold;
+    list-style: none;
+    float: left;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+    .quote{
+        text-shadow: 5px 7px black;
+        margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 150px;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        color:#00ccb1;
+        outline: 3px 3px black;
+    }
+    .quo{
+        text-shadow: 5px 7px black;
+        margin-left: 87px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 150px;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        color:#fcce43;
+    }
